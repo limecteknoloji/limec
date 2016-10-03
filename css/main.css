@@ -1,0 +1,10 @@
+.project > .row
+{
+	margin-top : -20%;
+}
+
+.project img
+{
+	width  : 100%;
+	height : auto;
+}

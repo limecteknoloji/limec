@@ -11,6 +11,8 @@
     "jquery": "^3.1.1",
     "jquery-ui": "^1.12.1",
     "bootstrap": "^3.3.7",
-    "fullpage.js": "^2.8.6"
+    "fullpage.js": "^2.8.6",
+    "retinajs": "^2.1.0",
+    "slick-carousel": "^1.6.0"
   }
 }
