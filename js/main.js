@@ -21,5 +21,9 @@ $(document).ready(
             }
         );
 
+        setTimeout(function () {
+            $('.zoom').magnify();
+        }, 2500);
+
     }
 );

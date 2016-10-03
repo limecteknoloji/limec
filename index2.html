@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
     <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="bower_components/magnify/dist/css/magnify.css">
     <link rel="stylesheet" type="text/css" href="css/examples.css"/>
     <link rel="stylesheet" href="css/main.css">
     <link rel="apple-touch-icon" sizes="57x57" href="imgs/apple-icon-57x57.png">
@@ -36,7 +37,7 @@
     <!--
         <script type="text/javascript" src="js/vendors/scrolloverflow.js"></script>-->
 </head>
-<body>
+<body onload="doAfterPageLoad()">
 <header id="header">
     <div class="container">
         <a id="logo" title="Limec Teknoloji A.Ş." href="#anasayfa">Limec Teknoloji A.Ş.</a>
@@ -83,7 +84,9 @@
                     <img src="imgs/bg-1.jpg" alt="" class="img-responsive" data-rjs="3">
                     <div class="row">
                         <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
-                            <img src="imgs/ss-1.jpg" alt="" class="img-responsive" data-rjs="3">
+                            <a href="imgs/ss-1.jpg">
+                                <img src="imgs/ss-1.jpg" alt="" class="img-responsive zoom" data-rjs="3">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -91,7 +94,7 @@
                     <img src="imgs/bg-2.jpg" alt="" class="img-responsive" data-rjs="3">
                     <div class="row">
                         <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
-                            <img src="imgs/ss-2.jpg" alt="" class="img-responsive" data-rjs="3">
+                            <img src="imgs/ss-2.jpg" alt="" class="img-responsive zoom" data-rjs="3">
                         </div>
                     </div>
                 </div>
@@ -132,6 +135,7 @@
 <script src="bower_components/fullpage.js/jquery.fullPage.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/slick-carousel/slick/slick.min.js"></script>
+<script src="bower_components/magnify/dist/js/jquery.magnify.js"></script>
 <script src="bower_components/retinajs/dist/retina.min.js"></script>
 <script src="js/main.js"></script>
 <script type="text/javascript">
