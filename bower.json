@@ -1,0 +1,14 @@
+{
+  "name": "limec",
+  "homepage": "https://github.com/limecteknoloji/limec",
+  "authors": [
+    "Halis Kaya <halis@limec.com.tr>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}
